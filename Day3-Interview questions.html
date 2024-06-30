@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Day3 Interview Questions :
+     1. Write a code to insert an image
+     2. Create a form contain input fields like name age email and contact
+     3. Create a table and explain how to acheive colspan
+     4. Create radio button (MERN, MEAN : course)and checkbox(HTML, CSS, React, Node : technology) and explain the difference between these two
+-->
+
+    <h3>Ques 1. Write a code to insert an image</h3>
+    <image src = "./Image 1.jfif" ></image>
+        <br>
+        <hr style = "border: 1px solid black">
+        <br>
+        
+    <h3>Ques 2. Create a form contain input fields like name age email and contact</h3>
+        <form>
+        
+            <label> NAME </label>
+            <input type="text" name="name" id="name"  placeholder="Name" required><br>
+            <br>
+    
+            <label> E-mail </label>
+            <input type="email" name="email" id="email" placeholder="email" required><br>
+            <br>
+    
+            <label> PASSWORD </label>
+            <input type="password" name="password" id="password" placeholder="password" required><br>
+            <br>
+            <br>
+        </form>
+        
+        
+        <br>
+        <hr style = "border: 1px solid black">
+        <br>
+
+        <h3>Ques 3. Create a table and explain how to acheive colspan</h3>
+        <table border = "1" style="width: 100%;  border-collapse: collapse;">
+            <caption> <strong>Data Table</strong>  </caption>
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Age</th>
+                    <th>Phone No</th>
+                    <th>Picode</th>
+                </tr>
+            </thead>
+            <tbody>            
+                <tr>
+                    <td colspan = "2">Deepak</td>
+                    <td>30</td>
+                    <td>7708346312</td>
+                    <td>641602</td>
+                </tr>
+                <tr>
+                    <td>Ramesh</td>
+                    <td>Kumar</td>
+                    <td>30</td>
+                    <td>7708346412</td>
+                    <td>641604</td>
+                </tr>
+                <tr>
+                    <td>Rajesh</td>
+                    <td>Kumar</td>
+                    <td>29</td>
+                    <td>7708346312</td>
+                    <td>641603</td>
+                </tr>
+            </tbody>
+        </table> <br>
+
+        <br>
+        <hr style = "border: 1px solid black">
+        <br>
+
+
+        <h3>Ques 4. Create a radio button and check box/h3>
+
+            <p>The difference between radio and checkbox is in radio you can select only one and you cannot select many items but in checkbox we can able to select multiple items</p>
+
+            <label> Language </label><br>
+            <br>
+                <input type="radio" name="language" id="MERN">MERN<br>
+                <input type="radio" name="language" id="MEAN : course">MEAN : course<br>
+            <br>
+            <br>
+        
+    
+            <label> Course </label><br>
+            <br>
+                <input type="checkbox" name="courses" id="">HTML<br>
+                <input type="checkbox" name="courses" id="">CSS<br>
+                <input type="checkbox" name="courses" id="">React<br>
+                <input type="checkbox" name="courses" id="">Node : technology<br>
+            <br>
+            <br>
+    
+        
+
+
+
+
+</body>
+
+</html>
